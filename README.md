@@ -70,5 +70,15 @@ oh-my-zsh 설치
 ### Brew
 필요하다면 brew 설치
 
+Obsidian 같은 프로그램을 설치하는 경우 경로를 다르게 해야한다.
+예) `brew install --cask obsidian --appdir=~/Applications`
+
 ### Subject
 과제 clone 받기
+
+#### GitHub
+만약 개인 GitHub에 있는 Private 저장소를 URL 방식으로 내려받으려고 하면 username과 password를 입력받으라고 할 수 있다.
+
+그런 경우에는 GitHub PAT(Personal Access Token)를 생성해야 한다.
+Settings -> Developer settings -> Personal access tokens를 선택한다.
+Generate new token을 선택하고 repo를 체크한다.
