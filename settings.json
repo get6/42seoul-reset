@@ -1,0 +1,15 @@
+{
+	"window.zoomLevel": 1.5,
+	"projectManager.git.baseFolders": [
+		"/Users/sunhwang/InnerCircle"
+	],
+	"42header.email": "sunhwang@student.42seoul.kr",
+    "42header.username": "sunhwang",
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"workbench.editor.enablePreview": false,
+	"extensions.ignoreRecommendations": true,
+}
