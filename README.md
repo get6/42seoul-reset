@@ -82,3 +82,5 @@ Obsidian 같은 프로그램을 설치하는 경우 경로를 다르게 해야�
 그런 경우에는 GitHub PAT(Personal Access Token)를 생성해야 한다.
 Settings -> Developer settings -> Personal access tokens를 선택한다.
 Generate new token을 선택하고 repo를 체크한다.
+
+생성된 PAT는 Private 저장소를 내려받을 때 username과 password를 입력할 때 password 입력 단계에서 사용하면 된다.
