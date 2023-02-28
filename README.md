@@ -16,7 +16,9 @@ VS Code를 사용한다면 setting.json에 설정과 설치한 Extension 목록�
 필요하다면 .zshrc 파일 백업
 
 ### Extension 목록
+필요한 extension들이 있다면 미리 무엇을 설치했었는지 확인하자.
 
+내가 쓰던 확장들
 - 42 Header
 - 42 Norminette Highlighter
 - C/C++
@@ -77,9 +79,18 @@ ssh keygen 인트라에 등록
 
 settings.json 파일 내용 복붙하기.
 
-### Iterm
-iterm 텍스트 크기 조정
-oh-my-zsh 설치
+### iTerm2
+iTerm2 기본 설정에서 좀 더 사용자 친화적으로 변경
+
+#### iTerm2 텍스트 크기 조정
+iTerm2 실행 후 -> 상단 애플 로고 오른쪽 굵은 글씨 iTerm2 클릭 -> Preferences 클릭
+
+-> Profiles -> Text -> Font -> Regular로 선택된 입력창 오른쪽에서 숫자 조정
+
+#### oh-my-zsh 설치
+[Install Oh My Zsh](https://ohmyz.sh/#install) 들어가기
+
+해당 명령어를 iTerm2에 복사하고 붙여넣기하고 실행하기
 
 ### Brew
 필요하다면 brew 설치
