@@ -1,7 +1,7 @@
 {
-	"window.zoomLevel": 1.5,
+    "window.zoomLevel": 1,
 	"projectManager.git.baseFolders": [
-		"/Users/sunhwang/InnerCircle"
+		"/Users/sunhwang/inner-circle"
 	],
 	"42header.email": "sunhwang@student.42seoul.kr",
     "42header.username": "sunhwang",
@@ -12,4 +12,12 @@
 	"files.insertFinalNewline": true,
 	"workbench.editor.enablePreview": false,
 	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		"*.hpp": "cpp"
+	},
+	"extensions.autoUpdate": false,
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools",
+		"editor.formatOnSave": true,
+	},
 }
