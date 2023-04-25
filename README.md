@@ -74,7 +74,13 @@ Use the Caps Lock key to switch to and from ABC 체크하기
 -> 브라우저 설정하라고 제안했을 때 못했다면, Apple 로고 -> General -> Default web browser에 크롬 선택
 
 ### Intra
-ssh keygen 인트라에 등록
+로그인한 PC의 ssh keygen을 인트라에 등록해야 한다.
+
+생성된 key로 GitHub에 등록해서 사용할 수 있다.
+
+1. 터미널에서 `ssh-keygen`을 입력한다.
+2. `pbcopy < ~/.ssh/id_rsa.pub`를 사용해서 복사하든 마우스로 긁어서 복사를 한다.
+3. [SSH Key](https://profile.intra.42.fr/gitlab_users)로 이동해서 등록하면 된다.
 
 ### Slack
 슬랙 로그인은 42 이메일 주소로 로그인하고 연결된 이메일로 들어가 인증코드 입력
@@ -112,11 +118,9 @@ Obsidian 같은 프로그램을 설치하는 경우에는 설치 경로를 다�
 과제 clone 받기
 
 #### GitHub
-만약 개인 GitHub에 있는 Private 저장소를 URL 방식으로 내려받으려고 하면 username과 password를 입력받으라고 할 수 있다.
 
-그런 경우에는 GitHub PAT(Personal Access Token)를 생성해야 한다.
+개인 SSH를 등록하는 게 개인 저장소, 조직을 클러스터 맥에서 사용하기 편한다.
 
-Settings -> Developer settings -> Personal access tokens를 선택한다.
-Generate new token을 선택하고 repo를 체크한다.
+Intra 항목에서 이미 만들어졌다고 가정하고, [이 링크](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)에서 하라는 대로 하면 된다.
 
-생성된 PAT는 Private 저장소를 내려받을 때 username과 password를 입력할 때 password 입력 단계에서 사용하면 된다.
+이렇게 하면 clone할 때 URL 방식 대신 SSH 방식을 사용해야 한다.
