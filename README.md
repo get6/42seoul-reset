@@ -25,8 +25,12 @@ VS Code를 사용한다면 setting.json에 설정과 설치한 Extension 목록�
 - Colonize
 - Error Lens
 - Git History
+- GitHub Copilot
 - Project Manager
 - Todo Tree
+- TabOut
+- Thunder Client
+- CodeLLDB
 
 #### C/C++ 설치 이후
 VS Code에서 `ctrl + ,`을 입력해 settings로 간다.\
