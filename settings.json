@@ -1,10 +1,10 @@
 {
-    "window.zoomLevel": 1,
+	"window.zoomLevel": 1,
 	"projectManager.git.baseFolders": [
 		"/Users/sunhwang/inner-circle"
 	],
 	"42header.email": "sunhwang@student.42seoul.kr",
-    "42header.username": "sunhwang",
+	"42header.username": "sunhwang",
 	"editor.tabSize": 4,
 	"editor.insertSpaces": false,
 	"editor.renderWhitespace": "all",
@@ -20,4 +20,8 @@
 		"editor.defaultFormatter": "ms-vscode.cpptools",
 		"editor.formatOnSave": true,
 	},
+	"github.copilot.enable": {
+	"*": true,
+	},
+	"thunder-client.saveToWorkspace": true,
 }
