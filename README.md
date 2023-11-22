@@ -32,7 +32,7 @@ VS Code를 사용한다면 setting.json에 설정과 설치한 Extension 목록�
 - Thunder Client
 - Docker (5서클 이후)
 
-#### C/C++ 설치 이후
+#### VS Code에서 C/C++ Extension 설치를 한 경우
 VS Code에서 `ctrl + ,`을 입력해 settings로 간다.\
 인풋창에 cache를 치면 C_Cpp: Intelli Sense Cache Size 항목이 있는데, 5120 -> 512로 바꾼다.\
 내 생각엔 이게 용량을 잡아먹는 원인같다.
@@ -108,7 +108,8 @@ settings.json 파일 내용 복붙하기.
 ### Brew
 필요하다면 brew 설치
 
-Obsidian 같은 프로그램을 설치하는 경우에는 설치 경로를 다르게 해야지 문제없이 사용할 수 있다.
+~~Obsidian 같은 프로그램을 설치하는 경우에는 설치 경로를 다르게 해야지 문제없이 사용할 수 있다.~~
+탱님 덕분에 MSC(Managed Software Center)를 통해 옵시디언, 피그마, 노션을 용량 걱정없이 설치할 수 있다.
 
 맥에서 설치할 때 권한을 요구하는데 우리는 사용자 계정으로 권한이 약하다.
 
